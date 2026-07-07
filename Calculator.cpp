@@ -11,33 +11,36 @@ void showmenu()
     std::cout << "4.Division\n";
 }
 
-int add(int x, int y)
+double add(double x, double y)
 {
     return x + y;
 }
  
-int subtract(int x, int y)
+double subtract(double x, double y)
 {
     return x - y;
 }
 
-int multiply(int x, int y)
+double multiply(double x, double y)
 {
     return x * y;
 }
 
-int division(int x, int y)
+double division(double x, double y)
 {
     if (y ==0)
-        std::cout << "Invalid";
+    {       
+        std::cout << "Cannot divide by zero";
+        return 0;
+    }
     else
         return x / y;
 }
 
     int main()
 {
-    int x{};
-    int y{};
+    double x{};
+    double y{};
     int choice{};
     
     std::cout << "Select your first number:\n";
