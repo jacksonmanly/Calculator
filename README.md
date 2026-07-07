@@ -1,4 +1,25 @@
-A command-line calculator built in C++ that supports addition, subtraction, multiplication, and division. Includes division by zero protection.
-## How to compile
-Open Calculator.cpp in Visual Studio and press Ctrl+F5 to build and run.
-How to Run: Simply enter your first number, than proceed to select an operation from the menu provided (1-4), select your second number, and in the end your display will be showed.
+A simple command-line calculator written in C++.
+
+## Features
+
+- Addition
+- Subtraction
+- Multiplication
+- Division
+- Division by zero protection
+
+## How to Run
+
+1. Open the project in Visual Studio.
+2. Press **Ctrl + F5** to build and run.
+3. Enter the first number.
+4. Choose an operation (1–4).
+5. Enter the second number.
+6. View the result.
+
+## Future Improvements
+
+- Continuous calculations using loops
+- Scientific functions (`sqrt`, `pow`, `sin`, `cos`, `tan`, `log`)
+- Improved user interface
+
