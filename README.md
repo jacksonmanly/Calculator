@@ -7,6 +7,7 @@ A simple command-line calculator written in C++.
 - Multiplication
 - Division
 - Division by zero protection
+- Decimals
 
 ## How to Run
 
