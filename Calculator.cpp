@@ -1,7 +1,7 @@
 // Calculator.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
 
-#include <iostream>
+#include <iostream> <cmath>
 void showmenu()
 {
     std::cout << "Choose an operation:\n";
@@ -9,6 +9,7 @@ void showmenu()
     std::cout << "2.Subtract\n";
     std::cout << "3.Multiply\n";
     std::cout << "4.Division\n";
+    std::cout << "5.Power\n";
 }
 
 double add(double x, double y)
@@ -35,6 +36,11 @@ double division(double x, double y)
     }
     else
         return x / y;
+}
+
+double squared(double x, double y)
+{
+   return pow(x,y);
 }
 
     int main()
@@ -65,6 +71,8 @@ double division(double x, double y)
 
       else if (choice == 4)
           std::cout << "Answer:" << division(x, y);
+      else if (choice == 5)
+          std::cout << "Answer:" << squared(x,y);
       else
           std::cout << "Invalid";
 
