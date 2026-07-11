@@ -8,6 +8,7 @@ A simple command-line calculator written in C++.
 - Division
 - Division by zero protection
 - Decimals
+- Powers
 
 ## How to Run
 
@@ -21,6 +22,6 @@ A simple command-line calculator written in C++.
 ## Future Improvements
 
 - Continuous calculations using loops
-- Scientific functions (`sqrt`, `pow`, `sin`, `cos`, `tan`, `log`)
+- Scientific functions (`sqrt`, `sin`, `cos`, `tan`, `log`)
 - Improved user interface
 
